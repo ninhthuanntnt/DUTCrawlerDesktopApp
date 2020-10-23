@@ -1,7 +1,7 @@
 package com.ntnt.dutcrawler.app.panels;
 
-import com.ntnt.dutcrawler.Models.JwtResponse;
-import com.ntnt.dutcrawler.Models.ScheduleEntity;
+import com.ntnt.dutcrawler.models.JwtResponse;
+import com.ntnt.dutcrawler.models.ScheduleEntity;
 import com.ntnt.dutcrawler.app.utils.SemesterUtils;
 import com.ntnt.dutcrawler.services.AppService;
 
@@ -9,7 +9,6 @@ import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;

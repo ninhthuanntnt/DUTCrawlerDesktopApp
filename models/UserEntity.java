@@ -1,6 +1,4 @@
-package com.ntnt.dutcrawler.Models;
-
-import java.util.*;
+package com.ntnt.dutcrawler.models;
 
 public class UserEntity {
     private Long id;

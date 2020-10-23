@@ -1,15 +1,11 @@
 package com.ntnt.dutcrawler.app.panels;
 
-import com.ntnt.dutcrawler.Models.*;
-import com.ntnt.dutcrawler.app.utils.SemesterUtils;
+import com.ntnt.dutcrawler.models.*;
 import com.ntnt.dutcrawler.services.AppService;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
-import java.awt.event.ItemEvent;
-import java.util.ArrayList;
-import java.util.List;
 
 public class ScoreTab extends JPanel {
 

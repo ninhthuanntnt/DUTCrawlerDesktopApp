@@ -1,9 +1,6 @@
-package com.ntnt.dutcrawler.Http;
-
-import org.json.JSONObject;
+package com.ntnt.dutcrawler.http;
 
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
 
 public class HttpResponse {

@@ -1,4 +1,4 @@
-package com.ntnt.dutcrawler.Http;
+package com.ntnt.dutcrawler.http;
 
 import java.io.*;
 import java.net.InetAddress;

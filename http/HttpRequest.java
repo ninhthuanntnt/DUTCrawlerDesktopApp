@@ -1,4 +1,4 @@
-package com.ntnt.dutcrawler.Http;
+package com.ntnt.dutcrawler.http;
 
 import org.json.JSONObject;
 

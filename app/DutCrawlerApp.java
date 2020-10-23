@@ -1,6 +1,6 @@
 package com.ntnt.dutcrawler.app;
 
-import com.ntnt.dutcrawler.Models.JwtResponse;
+import com.ntnt.dutcrawler.models.JwtResponse;
 import com.ntnt.dutcrawler.app.panels.LoginTab;
 import com.ntnt.dutcrawler.app.panels.NotificationTab;
 import com.ntnt.dutcrawler.app.panels.ScheduleTab;

@@ -1,9 +1,9 @@
 package com.ntnt.dutcrawler.services;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ntnt.dutcrawler.Http.HttpResponse;
-import com.ntnt.dutcrawler.Http.NTSoup;
-import com.ntnt.dutcrawler.Models.*;
+import com.ntnt.dutcrawler.http.HttpResponse;
+import com.ntnt.dutcrawler.http.NTSoup;
+import com.ntnt.dutcrawler.models.*;
 import com.ntnt.dutcrawler.enums.NotiType;
 
 import java.util.*;
@@ -79,11 +79,7 @@ public class AppService {
 
             Map<String, String> headers = new HashMap<>();
             HttpResponse response = NTSoup.post(DOMAIN + "/api/login",
-                    "{" +
-                            "\"username\" : \"102170125\"," +
-                            "\"password\" : \"13021999\"" +
-                            "}", headers);
-
+                    String.format("{\"username\" : \"%s\",\"password\" : \"%s\"}", username, password), headers);
 
             JwtResponse jwtResponse = new ObjectMapper().readValue(response.getBody(), JwtResponse.class);
             System.out.println(jwtResponse);

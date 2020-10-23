@@ -1,4 +1,4 @@
-package com.ntnt.dutcrawler.Models;
+package com.ntnt.dutcrawler.models;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.ntnt.dutcrawler.enums.NotiType;

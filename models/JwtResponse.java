@@ -1,6 +1,4 @@
-package com.ntnt.dutcrawler.Models;
-
-import com.fasterxml.jackson.annotation.JsonProperty;
+package com.ntnt.dutcrawler.models;
 
 public class JwtResponse {
 

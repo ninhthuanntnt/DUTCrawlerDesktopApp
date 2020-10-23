@@ -1,6 +1,6 @@
 package com.ntnt.dutcrawler.app.panels;
 
-import com.ntnt.dutcrawler.Models.NotificationEntity;
+import com.ntnt.dutcrawler.models.NotificationEntity;
 import com.ntnt.dutcrawler.enums.NotiType;
 import com.ntnt.dutcrawler.services.AppService;
 

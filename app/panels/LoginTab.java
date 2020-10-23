@@ -1,6 +1,6 @@
 package com.ntnt.dutcrawler.app.panels;
 
-import com.ntnt.dutcrawler.Models.JwtResponse;
+import com.ntnt.dutcrawler.models.JwtResponse;
 import com.ntnt.dutcrawler.app.DutCrawlerApp;
 import com.ntnt.dutcrawler.services.AppService;
 

@@ -1,4 +1,4 @@
-package com.ntnt.dutcrawler.Models;
+package com.ntnt.dutcrawler.models;
 
 import java.util.List;
 
